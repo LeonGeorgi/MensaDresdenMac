@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  Mensa
-//
-//  Created by Leon on 31.01.20.
-//  Copyright © 2020 Leon. All rights reserved.
-//
-
 import Cocoa
 import SwiftUI
 
@@ -25,6 +17,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             styleMask: [.titled, .closable, .miniaturizable, .resizable, .fullSizeContentView],
             backing: .buffered, defer: false)
         window.center()
+        // window.styleMask = .unifiedTitleAndToolbar
         window.setFrameAutosaveName("Main Window")
         window.contentView = NSHostingView(rootView: contentView)
         window.makeKeyAndOrderFront(nil)

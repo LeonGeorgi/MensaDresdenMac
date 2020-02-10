@@ -3,10 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		350C6AD523F1941D00E7CAD1 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 350C6AD423F1941D00E7CAD1 /* SDWebImageSwiftUI */; };
+		350C6AD923F1AFF800E7CAD1 /* MealDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C6AD823F1AFF800E7CAD1 /* MealDetailView.swift */; };
+		350C6ADB23F1B4B600E7CAD1 /* PriceLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C6ADA23F1B4B600E7CAD1 /* PriceLabel.swift */; };
+		350C6ADD23F1C24E00E7CAD1 /* MealListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C6ADC23F1C24E00E7CAD1 /* MealListView.swift */; };
+		350C6ADF23F1C40300E7CAD1 /* Examples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C6ADE23F1C40300E7CAD1 /* Examples.swift */; };
+		350C6AE123F1C87500E7CAD1 /* CanteenListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350C6AE023F1C87500E7CAD1 /* CanteenListView.swift */; };
 		3577FF8923E42BA1006A7AB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3577FF8823E42BA1006A7AB1 /* AppDelegate.swift */; };
 		3577FF8B23E42BA1006A7AB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3577FF8A23E42BA1006A7AB1 /* ContentView.swift */; };
 		3577FF8D23E42BA2006A7AB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3577FF8C23E42BA2006A7AB1 /* Assets.xcassets */; };
@@ -14,6 +20,8 @@
 		3577FF9323E42BA2006A7AB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3577FF9123E42BA2006A7AB1 /* Main.storyboard */; };
 		3577FF9F23E42BA2006A7AB1 /* MensaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3577FF9E23E42BA2006A7AB1 /* MensaTests.swift */; };
 		3577FFAA23E42BA2006A7AB1 /* MensaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3577FFA923E42BA2006A7AB1 /* MensaUITests.swift */; };
+		3577FFBB23E42C6C006A7AB1 /* EmealKit in Frameworks */ = {isa = PBXBuildFile; productRef = 3577FFBA23E42C6C006A7AB1 /* EmealKit */; };
+		35FAE1A523F18AAC004905E3 /* CanteenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FAE1A423F18AAC004905E3 /* CanteenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		350C6AD823F1AFF800E7CAD1 /* MealDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDetailView.swift; sourceTree = "<group>"; };
+		350C6ADA23F1B4B600E7CAD1 /* PriceLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceLabel.swift; sourceTree = "<group>"; };
+		350C6ADC23F1C24E00E7CAD1 /* MealListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealListView.swift; sourceTree = "<group>"; };
+		350C6ADE23F1C40300E7CAD1 /* Examples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Examples.swift; sourceTree = "<group>"; };
+		350C6AE023F1C87500E7CAD1 /* CanteenListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanteenListView.swift; sourceTree = "<group>"; };
 		3577FF8523E42BA1006A7AB1 /* Mensa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mensa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3577FF8823E42BA1006A7AB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3577FF8A23E42BA1006A7AB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +61,7 @@
 		3577FFA523E42BA2006A7AB1 /* MensaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MensaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3577FFA923E42BA2006A7AB1 /* MensaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MensaUITests.swift; sourceTree = "<group>"; };
 		3577FFAB23E42BA2006A7AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35FAE1A423F18AAC004905E3 /* CanteenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanteenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				350C6AD523F1941D00E7CAD1 /* SDWebImageSwiftUI in Frameworks */,
+				3577FFBB23E42C6C006A7AB1 /* EmealKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,13 +114,19 @@
 		3577FF8723E42BA1006A7AB1 /* Mensa */ = {
 			isa = PBXGroup;
 			children = (
+				3577FF9523E42BA2006A7AB1 /* Mensa.entitlements */,
+				3577FF9423E42BA2006A7AB1 /* Info.plist */,
 				3577FF8823E42BA1006A7AB1 /* AppDelegate.swift */,
+				35FAE1A423F18AAC004905E3 /* CanteenView.swift */,
 				3577FF8A23E42BA1006A7AB1 /* ContentView.swift */,
+				350C6ADE23F1C40300E7CAD1 /* Examples.swift */,
+				350C6AD823F1AFF800E7CAD1 /* MealDetailView.swift */,
+				350C6ADC23F1C24E00E7CAD1 /* MealListView.swift */,
+				350C6ADA23F1B4B600E7CAD1 /* PriceLabel.swift */,
 				3577FF8C23E42BA2006A7AB1 /* Assets.xcassets */,
 				3577FF9123E42BA2006A7AB1 /* Main.storyboard */,
-				3577FF9423E42BA2006A7AB1 /* Info.plist */,
-				3577FF9523E42BA2006A7AB1 /* Mensa.entitlements */,
 				3577FF8E23E42BA2006A7AB1 /* Preview Content */,
+				350C6AE023F1C87500E7CAD1 /* CanteenListView.swift */,
 			);
 			path = Mensa;
 			sourceTree = "<group>";
@@ -151,6 +173,10 @@
 			dependencies = (
 			);
 			name = Mensa;
+			packageProductDependencies = (
+				3577FFBA23E42C6C006A7AB1 /* EmealKit */,
+				350C6AD423F1941D00E7CAD1 /* SDWebImageSwiftUI */,
+			);
 			productName = Mensa;
 			productReference = 3577FF8523E42BA1006A7AB1 /* Mensa.app */;
 			productType = "com.apple.product-type.application";
@@ -223,6 +249,10 @@
 				Base,
 			);
 			mainGroup = 3577FF7C23E42BA1006A7AB1;
+			packageReferences = (
+				3577FFB923E42C6C006A7AB1 /* XCRemoteSwiftPackageReference "EmealKit" */,
+				350C6AD323F1941D00E7CAD1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 3577FF8623E42BA1006A7AB1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -266,8 +296,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				350C6ADF23F1C40300E7CAD1 /* Examples.swift in Sources */,
+				350C6AD923F1AFF800E7CAD1 /* MealDetailView.swift in Sources */,
+				35FAE1A523F18AAC004905E3 /* CanteenView.swift in Sources */,
+				350C6ADB23F1B4B600E7CAD1 /* PriceLabel.swift in Sources */,
 				3577FF8B23E42BA1006A7AB1 /* ContentView.swift in Sources */,
+				350C6AE123F1C87500E7CAD1 /* CanteenListView.swift in Sources */,
 				3577FF8923E42BA1006A7AB1 /* AppDelegate.swift in Sources */,
+				350C6ADD23F1C24E00E7CAD1 /* MealListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,6 +633,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		350C6AD323F1941D00E7CAD1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.10.3;
+			};
+		};
+		3577FFB923E42C6C006A7AB1 /* XCRemoteSwiftPackageReference "EmealKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kiliankoe/EmealKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		350C6AD423F1941D00E7CAD1 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 350C6AD323F1941D00E7CAD1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		3577FFBA23E42C6C006A7AB1 /* EmealKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3577FFB923E42C6C006A7AB1 /* XCRemoteSwiftPackageReference "EmealKit" */;
+			productName = EmealKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3577FF7D23E42BA1006A7AB1 /* Project object */;
 }

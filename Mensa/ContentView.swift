@@ -1,19 +1,24 @@
-//
-//  ContentView.swift
-//  Mensa
-//
-//  Created by Leon on 31.01.20.
-//  Copyright © 2020 Leon. All rights reserved.
-//
-
 import SwiftUI
+import EmealKit
 
 struct ContentView: View {
+    @State var searchString = ""
+    @State var canteens: [Canteen] = []
     var body: some View {
-        Text("Hello, World!")
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        NavigationView {
+            CanteenListView()
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+            
+            Text("Select a canteen")
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+            
+        }.navigationViewStyle(DoubleColumnNavigationViewStyle())
+        
+        
     }
+    
 }
+
 
 
 struct ContentView_Previews: PreviewProvider {
@@ -21,3 +26,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
